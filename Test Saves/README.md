@@ -46,7 +46,7 @@ Notes: Enable debug and 'build while paused' in the configuration file before st
   i. 20 benches total in Plot 1 (on walls of patient rooms)\
   j. 4 benches total in Plot 4 (outside Ward)
 9. Place your consultant researcher in the Research room
-10. Place your consultant surgeon and the two least qualified hired staff in the training room until both are qualified surgeons (or becomes a consultant, whicher is sooner).\
+10. Place your consultant surgeon and the two least qualified hired staff in the training room until both are qualified surgeons (or becomes a consultant, whichever is sooner).\
 Remove all staff from room once achieved (do not move during training to the operating theatre)
 11. Open the hospital and run the game until September 1st. For decision making:\
   a. VIP Visits - always accept\
