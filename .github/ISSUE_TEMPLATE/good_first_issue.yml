@@ -24,7 +24,6 @@ body:
     attributes:
       label: Describe the issue
       description: Give as much detail as possible
-      placeholder: "0.69.1"
     validations:
       required: true
   - type: input
@@ -32,6 +31,7 @@ body:
     attributes:
       label: What CorsixTH version was the issue first discovered in?
       description: Ideally a release version
+      placeholder: "0.69.1"
     validations:
       required: true
   - type: textarea
