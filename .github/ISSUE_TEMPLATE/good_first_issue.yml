@@ -1,6 +1,6 @@
 # Note: This form can't be locked down to organisation memebers in GitHub currently.
 name: Good First Issue [Developer Use Only]
-title: Good First Issue: Enter Summary Here
+title: "Good First Issue: Enter Summary Here"
 description: For developer use only. Create a guided ticket for a first-time
   contributor to the code to fix or implement something new.
 projects: []
