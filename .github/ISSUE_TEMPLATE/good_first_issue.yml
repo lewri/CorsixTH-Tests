@@ -82,7 +82,7 @@ body:
     validations:
       required: true
   # Auto-inserting help text, do not touch question below.
-    - type: textarea
+  - type: textarea
     id: help
     attributes:
       label: You may wish to check out the following resources if you are interested in picking up this issue
