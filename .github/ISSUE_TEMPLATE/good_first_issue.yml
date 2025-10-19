@@ -1,0 +1,73 @@
+name: Good First Issue [Developer Use Only]
+title: Enter Summary Here
+description: For developer use only. Create a guided ticket for a first-time
+  contributor to the code to fix or implement something new.
+projects: []
+labels:
+  - Good First Issue
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        **CorsixTH Issue template for good first issues.**
+
+        This ticket aims to provide the outline of the problem, the relevant
+        code sources you need to know about, and what possible fixes there are,
+        if any.
+
+        Please ensure the original ticket is closed, if there was one, and link
+        it in the question further below.
+  - type: textarea
+    id: textarea-1
+    attributes:
+      label: Describe the issue
+      description: Give as much detail as possible
+    validations:
+      required: true
+  - type: textarea
+    id: textarea-2
+    attributes:
+      label: How can a player reproduce/see this in CorsixTH?
+      description: If there is a problem method to replicate, this helps the
+        contributor to check any fix works as intended
+      value: |-
+        1. *Load save game attached to this ticket*
+
+        2. 
+
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: textarea-3
+    attributes:
+      label: What is the idenitifed cause of the problem (if a bug)?
+      description: Provide examples of the codebase where the problem lies, including
+        any reasoning why this happens
+  - type: textarea
+    id: textarea-4
+    attributes:
+      label: What is the recommended approach(es) to resolve this?
+      description: Provide as much detail as needed, including any caveats/code traps
+        that might occur
+    validations:
+      required: true
+  - type: textarea
+    id: textarea-5
+    attributes:
+      label: Are there any resources in our Wiki that may be of use?
+      description: Link them below.
+  - type: input
+    id: input-6
+    attributes:
+      label: If this has been created from an existing issue, please add it below
+      description: Separate multiple issues with a comma
+      placeholder: "#1234"
+  - type: textarea
+    id: textarea-7
+    attributes:
+      label: Is a savegame to be provided?
+      description: Drag or upload it in the box below
+      value: "Savegame provided: Yes/No/Already in existing ticket"
+    validations:
+      required: true
