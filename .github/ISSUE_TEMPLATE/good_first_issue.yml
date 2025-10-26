@@ -66,9 +66,10 @@ body:
     id: dropdown-0
     attributes:
       label: Complexity Score
-      description: "How difficult will this be for someone to undertake? Note: If this
-        requires more than basic knowledge of Lua or C++ it is not a Good First
-        Issue!"
+      description: |
+       "How difficult will this be for someone to undertake?
+
+       **Note: If this requires more than basic knowledge of Lua or C++ it is not a Good First Issue!**"
       options:
         - "1: Very Easy (no code knowledge required)"
         - "2: Easy (Needs a basic understanding of coding concepts)"
