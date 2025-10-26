@@ -67,13 +67,14 @@ body:
     attributes:
       label: Complexity Score
       description: |
-       "How difficult will this be for someone to undertake?
+       How difficult will this be for someone to undertake?
 
-       **Note: If this requires more than basic knowledge of Lua or C++ it is not a Good First Issue!**"
+       **Note: If this requires more than basic knowledge of Lua or C++ (arugably 
+       any C++ is bad) it is not a Good First Issue!**
       options:
         - "1: Very Easy (no code knowledge required)"
         - "2: Easy (Needs a basic understanding of coding concepts)"
-        - "3: Slight Complexity (Needs a basic understanding of Lua)"
+        - "3: Slight Complexity (Needs a basic understanding of Lua or C++)"
     validations:
       required: true
   - type: textarea
